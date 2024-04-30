@@ -54,17 +54,30 @@
           <div class="card-block">
             <h2>About the project</h2>
             <div class="row">
-              <div class="col-md-4">
-                <p><img src="./assets/images/Dmining/miningF4.JPG" class="img-responsive" alt="The final four teams seeding"></p>
-                <p><img src="./assets/images/Dmining/miningmetrics.JPG" class="img-responsive" alt="Our final model's metrics"></p>
-              </div>
-              <div class="col-md-8">
+              <div class="col-md-14">
               <p>For my data wrangling final project, we were tasked with finding two or more datasets and merging them in R and explore a problem we face in business or society. As an avid sports fan, I took it upon myself to look into professional football and how the size of players have changed as the game has evolved. There were three specific questions I wanted answers to, what is the perfect size for an NFL quarterback,which team has the most success in finding all-pro players, and finally have the top receivers in the league become smaller, shifiter players as the league and game have sped up. I built an R script to scrape the webpages and gathered my data from <a href="https://www.jt-sw.com/football/pro/rosters.nsf/" title="JT_SW roster data">JT-SW</a> collecting the rosters from the 2003 to 2019 season, and additionally gathered all pro results from each season from <a href="https://www.pro-football-reference.com/" title="Pro Football Refernce Page">Pro Football Reference.</a></p>
-              <p>To the left is one of the measuers we were most proud of for our model. Our model actually had UConn as the number one team in the country heading into the tournament, much higher than the 4 seed the selection committee gave them. In addition to UConn, we had the rest of the Final Four teams graded out as underseeded by the selection committee and CBS, who is regarded as the best bracketology website. In addition to our model having these teams ratedd higher than they were, we also were proud of the teams on the bubble, where we feel the project thrives. Our model said that Wisconsin, North Texas, Utah Valley, and UAB should have made the tournament, but instead they all made the NIT. These four teams ended up making up the final four teams in the NIT tournament which we believe shows that they were undervalued by the selection committee, but not by our measures. In contrast to these four teams, the two schools that made the tournament that our model disagreed with were Nevada and Mississippi State. Like the aforementioned four teams, we believe our model was right as neither team won a game in their respective tournament runs.</p>
+              <p>While I learned a lot throughtout the process, I have learned that creating aesthetically pleasing plots in RStudio is diffiuclt and I had troubles with it. I also made a lot more work for myself in the scraping data portion of the project by not properly creating a for loop, in part because of the change in team names, and also because I had been using RStudio for no more than half of a semester when this project began. When looking at the graphs, while they are not super pleasing to the eye, I think many conclusions can be drawn from them. For starters, no QB under 6'2" won an MVP from 2003-2019, woth the only 3 players under this height who won MVP were running backs. In the plot below, with the RB and QB's split up I see that the MVP QB's have gotten shorter and smaller if they have changed really at all. It doesnt help that there were mutliple players who won more than one MVP as they can account for mutliple points on the chart. For running backs, although I cannot see any running back other than Christian McCaffrey winning an MVP in the next decade, the formula seems to be to get a guy under 5'11" and under 225 lbs. While the three guys fit that criteria, drafting a running back who fits that does not guarantee an MVP season by any means.</p>
               </div>
             </div>
           </div>
         </div>
+          <div class="card">
+            <div class="card-block">
+              <p><img src="./assets/images/Wrangling/MVPPlot.JPG" class="img-responsive" alt="Height and weight of every MVP from 2003-2019" >
+                <img src="./assets/images/Wrangling/MVPSplitPlots.JPG" class="img-responsive" alt="Height and weight of every MVP from 2003-2019 split into positions"></p>
+              </div>
+          </div>
+          <div class="card">
+            <div class="card-block">
+              <h2>The All Pro Results</h2>
+              <div class="col-md-14">
+              <p>The top teams in developing all pro players were easily the Patriots and the Ravens, this is obvious wen looking back at it as the Patriots were in the midst of the greatest dynasty ever and the Ravens were annually in the hunt to make the Super Bowl. We can see on the other side of the coin, Detroit and Jacksonville both were at the bottom of the list and stuggled mightily during the 2003-2019 season. The graph below is what I was most intrigued in when doing the project, and while I think therre is some story to be told from it, it was not the one I expected. Looking back there is the biggest collection of players around the 6'0.5" and 220 lb mark, which I would never have guessed as the typical all pro reciever. But the story I believe is that in 2003, the smaller, shifiter guys were the all pros and as passing became a bigger part, the league turned to the taller, bigger recievers. In the process of this, the game of football got much faster, and the recievers had to become smaller and quicker again, wile still being able to be as fast as can be. I think we will see this trend of recievers being bigger continue but there will always be a place for a shorter, blazer on the football field. I look forward to see how the trends carry on as we progress into the next era of the NFL.</p>
+              <p><img src="./assets/images/Wrangling/AllPro.jpeg" class="img-responsive" alt="Number of All Pro players from each team from 2003-2019" >
+                <img src="./assets/images/Wrangling/APWRPlot.JPG" class="img-responsive" alt="Height and weight of every All Pro player from 2003-2019"></p>
+                <p><a href="https://samstarnes.site/index" class="btn btn-primary btn-lg">Return to home</a></p>
+              </div>
+            </div>
+          </div>
         </div>
         </div>
         </div>
