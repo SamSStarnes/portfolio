@@ -4,8 +4,8 @@ This repository is the home to the code I wrote to complete my personal portfoli
 <br>
 https://samstarnes.site
 <br>
-[![HTML5](https://img.shields.io/badge/HTML5-Markup-orange?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-Style-blue?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![Azure](https://img.shields.io/badge/Azure-Cloud-blue?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/) ![University of Iowa badge](https://img.shields.io/static/v1?message=Hawks!!&labelColor=000000&color=FFCD00&label=Go&style=for-the-badge)
+[![HTML5](https://img.shields.io/badge/HTML5-Markup-orange?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-Style-blue?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![Azure](https://img.shields.io/badge/Azure-Cloud-blue?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/) ![Iowa City badge](https://img.shields.io/static/v1?message=IA&logo=google-maps&labelColor=ffcd00&color=000000&logoColor=black&label=Iowa%20City&style=for-the-badge)
 <br>
-
+To create this website, I downloaded an html template from Free CSS and edited the template to include my information and to change the colors so they matched the University of Iowa black and gold rather than the pinkish theme that was present at the start. All the files have been validated using standards from html5, css3, and WCAG 2,1 standards, level AA standards for accessibility.
 
 
